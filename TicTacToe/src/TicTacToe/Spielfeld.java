@@ -16,7 +16,7 @@ public class Spielfeld extends JFrame {
 	int modus = 0;
 //	spielfeld.setSize(500, 500);
 //	spielfeld.setLocationRelativeTo(null);
-//	spielfeld.setVisible(true);
+//	spielfeld.setVisible(true);  
 
 	public Spielfeld(Spieler spieler1, Spieler spieler2) {
 		modus = JOptionPane.showOptionDialog(null, "Modus", "Gegner wählen", JOptionPane.YES_NO_CANCEL_OPTION,

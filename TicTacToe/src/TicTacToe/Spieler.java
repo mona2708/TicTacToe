@@ -16,7 +16,7 @@ public class Spieler {
 	
 	
 	public void namenEingeben(Spieler spieler) {
-//		spieler.setName(JOptionPane.showInputDialog("Spieler" + spieler.id + " Name: "));
+//		spieler.setName(JOptionPane.showInputDialog("Spieler" + spieler.id + " Name: "));   
 		
 	}
 

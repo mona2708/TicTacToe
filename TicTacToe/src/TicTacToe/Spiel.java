@@ -14,7 +14,7 @@ public class Spiel {
 //		spieler1.namenEingeben(spieler1);
 //		
 //		if(spielfeld.getModus()==0) {
-//		spieler2.namenEingeben(spieler2);
+//		spieler2.namenEingeben(spieler2);   
 //		}
 		
 	}
