@@ -66,6 +66,8 @@ public class Spielfeld extends JFrame {
 					button[i].setIcon(kreuz);
 					button[i].setEnabled(false);
 					spielzuege++;
+					spieleristdran(spielzuege);
+					System.out.println("Spieler: " + spieleristdran(spielzuege));
 					// Alternative finden, die nicht ausgraut
 				}
 			}
@@ -74,11 +76,21 @@ public class Spielfeld extends JFrame {
 			
 		}
 	}
+	
+	public int spieleristdran (int spielzuege) {
+		int rest = spielzuege % 2 ;
+		if (rest == 0) {
+			return 2;
+		}
+		return 1;
+		
+	}
 
 	public void arrayAusgeben(String[] array) {
 		for (int i = 0; i < array.length; i++) {
 			System.out.println(array[i]);
+			
 		}
-
+			
 	}
 }
