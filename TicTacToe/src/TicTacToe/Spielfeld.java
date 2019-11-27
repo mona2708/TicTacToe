@@ -14,6 +14,7 @@ public class Spielfeld extends JFrame {
 	public String[] wertRaster = new String[9];
 	Scanner scan = new java.util.Scanner(System.in);
 	int modus = 0;
+	int spielzuege = 0;
 //	spielfeld.setSize(500, 500);
 //	spielfeld.setLocationRelativeTo(null);
 //	spielfeld.setVisible(true);  
@@ -64,11 +65,13 @@ public class Spielfeld extends JFrame {
 					// Wichtig: Am besten wird "X" oder "O" übergeben, je nachdem
 					button[i].setIcon(kreuz);
 					button[i].setEnabled(false);
+					spielzuege++;
 					// Alternative finden, die nicht ausgraut
 				}
 			}
 			arrayAusgeben(wertRaster);
 			// Überprüfung, welche Felder gesetzt wurden. Muss später rausgenommen werden.
+			
 		}
 	}
 
